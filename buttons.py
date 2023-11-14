@@ -4,6 +4,8 @@ main_window = tk.Tk()
 def print_on_click():
     print("Button clicked!")
 
+photo=tk.PhotoImage(file="key.png")
+
 button1 = tk.Button(main_window,
                     text="click me!",
                     command=print_on_click,
