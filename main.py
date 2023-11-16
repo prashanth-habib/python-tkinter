@@ -9,7 +9,7 @@ window.iconphoto(True, icon)
 window.config(background="#1f1f1f")
 
 label = Label(window,
-              text="Are You A Professional Moron Or \n Just A Gifted Amateur?")
+              text="Are You A Professional Moron Or \n Just A Gifted Amateur?\n\nYOU ARE RUNNING THE MAIN FILE!")
 label.config(background="#1f1f1f", foreground="#b2baed", font="Consolas", pady=20, padx=30)
 label.pack()
 
