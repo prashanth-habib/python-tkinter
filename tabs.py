@@ -10,7 +10,7 @@ second_tab = tk.Frame(notebook)
 
 notebook.add(first_tab, text="home")
 notebook.add(second_tab, text="settings")
-notebook.pack()
+notebook.pack(expand=True, fill="both")
 
 home_label = tk.Label(first_tab, text="Welcome to home page")
 settings_label = tk.Label(second_tab, text="Welcome to settings page")
